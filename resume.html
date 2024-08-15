@@ -12,11 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/assets/css/glitch-basic.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
-  <!-- CSS -->
-  <!-- <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/print.css" media="print"> -->
-  
   <meta name="description" content="ページの説明が入ります">
 
   <!-- FontAwesome -->
@@ -26,7 +23,7 @@
 
 
 </head>
-<body>
+<body class="font-roboto text-[13px]">
   <div class="border-[15px] md:border-[30px] border-amber-500 w-screen h-screen ">
     <div class="body-inner grid grid-rows-[auto_1fr_auto] gap-10 w-full h-full">
 
@@ -49,11 +46,11 @@
               id="menu"
               class="absolute top-20 left-0 flex gap-6 w-full -translate-y-[150%] flex-col bg-white/80 text-center font-bold text-gray-400 transition-all ease-linear lg:static lg:w-full lg:translate-y-0 lg:flex-row lg:place-items-center lg:bg-transparent lg:text-black lg:mt-26 lg:mt-auto z-20"
             >
-              <li class="p-3 md:hover:text-amber-600 font-roboto text-[13px] font-normal"><a href="index.html">Home</a></li>
-              <li class="p-3 text-amber-600 md:hover:text-amber-600 font-roboto text-[13px] font-normal"><a href="resume.html">Resume</a></li>
-              <li class="p-3 md:hover:text-amber-600 font-roboto text-[13px] font-normal"><a href="">Portfolio</a></li>
-              <li class="p-3 md:hover:text-amber-600 font-roboto text-[13px] font-normal"><a href="">Blog</a></li>
-              <li class="p-3 font-roboto text-[13px] font-normal"><a href="" class="p-3 border border-amber-500 md:hover:bg-amber-600 md:hover:text-white">Contacts</a></li>
+              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="index.html">Home</a></li>
+              <li class="p-3 text-amber-600 md:hover:text-amber-600 font-normal"><a href="resume.html">Resume</a></li>
+              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="portfolio.html">Portfolio</a></li>
+              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="blog.html">Blog</a></li>
+              <li class="p-3 font-normal"><a href="contact.html" class="p-3 border border-amber-500 md:hover:bg-amber-600 md:hover:text-white">Contacts</a></li>
             </ul>
           </nav>
         </div>
@@ -94,35 +91,433 @@
       <!-- メイン -->
       <main class="order-2 gap-y-10 w-full max-w-[1060px] m-x-auto justify-self-center overflow-y-scroll">
         <div class="wrapper grid min-h-full content-center">
-          <h1 class="text-[42px] md:text-[48px] lg:text-[68px] font-roboto
-          font-bold text-black transition-all text-center glitch relative uppercase inline-block mx-auto" data-text="Resume"><span class="block md:inline">Resume</span></h1><!-- / -->
-
+          <h1 class="text-[42px] md:text-[48px] lg:text-[68px] font-bold text-black transition-all text-center glitch relative uppercase inline-block mx-auto" data-text="Resume"><span class="block md:inline">Resume</span>
+          </h1><!-- / -->
           <div class="h-subtitle typing-bread text-[13px] text-center" style="display: none;">
             <p><a href="index.html">Home</a> / 
               <span class="text-amber-600">Resume</span></p>
-            </div>
-
-            <span class="typed-bread text-center font-roboto"><a href="index.html">Home</a> / 
-              <span class="text-amber-600">Resume</span></span> 
-
-        </div><!-- /.wrapper -->
-        <div class="button">
-          <a href="#" class="mouse_btn text-[24px] text-amber-500 text-center absolute w-[20px] h-[40px] left-1/2 bottom-[80px] ml-[-10px]" style="display: block;">
+          </div>
+          <span class="typed-bread text-center"><a href="index.html">Home</a> / 
+          <span class="text-amber-600">Resume</span></span>
+          <div class="button">
+            <a href="#" class="mouse_btn text-[24px] text-amber-500 text-center absolute w-[20px] h-[40px] left-1/2 bottom-[80px] ml-[-10px] animate-bounce" style="display: block;">
+          </div>
             <i class="fa-solid fa-computer-mouse"></i>
           </a>
-        </div>
+        </div><!-- /.wrapper -->
         <div class="section about relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
             <div class="content relative">
               <div class="title relative mb-[40px]">
                 <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">About Me</div>
               </div>
-              <div class="image float-left">
-                <img class="w-full h-full rounded-[100px] inline-block" src="assets/images/man1.jpg" alt="">
+
+              <div class="container flex flex-col md:grid md:grid-cols-[150px_1fr] gap-8">
+                <div class="image w-full h-full text-center md:row-span-3">
+                  <img class="rounded-[100px] inline-block" src="assets/images/man1.jpg" alt="">
+                </div>
+
+                <p class="text-[13px]">
+                  Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel te,
+                  his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te
+                  cule tation munere noluisse. Enim torquatos ne pri, eum mollis salutandi corrumpit et, fugit apeirian duo ad.
+                </p>
+
+                <div class="info-list">
+                  <dl class="text-[13px] grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[8px]">
+                    <div class="flex gap-[8px]">
+                      <dt class="text-amber-600">Name: </dt>
+                      <dd class="pl-1">John Doe</dd>
+                    </div>
+                    <div class="flex gap-[8px]">
+                      <dt class="text-amber-600">Age: </dt>
+                      <dd class="pl-1">22 Years</dd>
+                    </div>
+                    <div class="flex gap-[8px]">
+                      <dt class="text-amber-600">Job: </dt>
+                      <dd class="">Web Developer</dd>
+                    </div>
+                    <div class="flex gap-[8px]">
+                      <dt class="text-amber-600">Citizenship: </dt>
+                      <dd class="">Ukraine</dd>
+                    </div>
+                    <div class="flex gap-[8px]">
+                      <dt class="text-amber-600">Residence: </dt>
+                      <dd class="">Kiev</dd>
+                    </div>
+                    <div class="flex gap-[8px]">
+                      <dt class="text-amber-600">E-mail:</dt>
+                      <dd class="">Johndoe@domain.com</dd>
+                    </div>
+                  </dl>
+                </div><!-- /.info-list -->
+                
+                <div class="bts">
+                  <a href="" class="btn inline-block fill px-6 py-3 " data-text="Download CV">
+                    Download CV
+                  </a><!-- /.btn -->
+                </div><!-- /.bts -->
+              </div><!-- /.container-->
+            </div><!-- /.content -->
+        </div><!-- /.section .about -->
+        <div class="section resume relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100
+        visible">
+          <div class="content relative">
+            <div class="cols">
+              <div class="col col-md mb-[100px]">                
+                <div class="title relative mb-[40px]">
+                  <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[#141414] uppercase tracking-[0.04em]">Experience                  
+                  </div><!-- /.title_inner -->
+                </div><!-- /.title -->
+                <div class="resume-items">
+                  <div class="resume-item active relative px-[30px] pt-0 pb-[60px] ">
+                    <div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-amber-600 border-solid border-amber-600 border ">2013 - Present</div><!-- /.date -->
+                    <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Front-end Developer - Google Inc</div>
+                    <p class="!m-0">
+                      Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                      quis interdum nisi sollicitudin.
+                      <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Front-end Developer - Google Inc
+                      </div>
+                    </p>
+                  </div><!-- /.resume-item -->
+                  <div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
+                    <div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-amber-600 border-solid border-amber-600 border ">2011 - 2012</div>
+                    <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Art Director - Facebook Inc</div>
+                    <p class="!m-0">
+                    Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                    quis interdum nisi sollicitudin.
+                    </p>
+                  </div>
+                  <div class="resume-item active relative px-[30px] pt-0">
+                    <div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-amber-600 border-solid border-amber-600 border font-roboto">2009 - 2010</div>
+                    <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Senior Developer - Abc Inc</div>
+                    <p class="!m-0">
+                    Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                    quis interdum nisi sollicitudin.
+                    </p>
+                  </div>
+                </div><!-- /.resume-items -->
+              </div><!-- /.col -->
+              <div class="col col-md">                
+                <div class="title relative mb-[40px]">
+                  <div class="title_inner inline-block align-middle text-center relative  leading-[18px] text-[#141414] uppercase tracking-[0.04em]">Education                   
+                  </div><!-- /.title_inner -->
+                </div><!-- /.title -->
+                <div class="resume-items">
+                  <div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
+                    <div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-amber-600 border-solid border-amber-600 border font-roboto">2013 - Present</div><!-- /.date -->
+                    <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Front-end Developer - Google Inc</div>
+                    <p class="!m-0">
+                      Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                      quis interdum nisi sollicitudin.
+                      <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Front-end Developer - Google Inc                        
+                      </div>
+                    </p>
+                  </div><!-- /.resume-item -->
+                  <div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
+                    <div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-amber-600 border-solid border-amber-600 border font-roboto">2011 - 2012</div>
+                    <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Art Director - Facebook Inc</div>
+                    <p class="!m-0">
+                    Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                    quis interdum nisi sollicitudin.
+                    </p>
+                  </div>
+                  <div class="resume-item active relative px-[30px] pt-0">
+                    <div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-amber-600 border-solid border-amber-600 border font-roboto">2009 - 2010</div>
+                    <div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Senior Developer - Abc Inc</div>
+                    <p class="!m-0">
+                    Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                    quis interdum nisi sollicitudin.
+                    </p>
+                  </div>
+                </div><!-- /.resume-items -->
+              </div><!-- /.col -->
+
+            </div><!-- /.cols -->
+          </div><!-- /.content -->
+        </div><!-- /.section resume -->
+        <div class="section skills relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible`">
+          <div class="content">
+            <div class="title mb-[40px]">
+              <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[#141414] uppercase tracking-[0.04em]">Design Skills</div>
+            </div><!-- /.title -->
+            <div class="skills"><ul class="m-0 p-0 list-none">
+              <li class="px-0 pt-0 pb-[30px]">
+                <div class="name text-[#363636] font-normal relative mx-0 mt-0 mb-[9px]">Web Design</div>
+                <div class="progress block h-[3px] relative w-full bg-[#ddd]">
+                  <div class="percentage left-0 top-0 absolute h-[3px] w-[0%] bg-amber-500" style="width:70%;">
+                    <span class="percent absolute top-[-27px] right-0 text-[#363636] font-normal">70%</span>
+                  </div>
+                </div>
+              </li>
+              <li class="px-0 pt-0 pb-[30px]">
+                <div class="name text-[#363636] font-normal relative mx-0 mt-0 mb-[9px]">Illustrations</div>
+                <div class="progress block h-[3px] relative w-full bg-[#ddd]">
+                  <div class="percentage left-0 top-0 absolute h-[3px] w-[0%] bg-amber-500" style="width:90%;">
+                  <span class="percent absolute top-[-27px] right-0 text-[#363636] font-normal">90%</span>
+                  </div>
+                </div>
+              </li>
+              <li class="px-0 pt-0 pb-[30px]">
+                <div class="name text-[#363636] font-normal relative mx-0 mt-0 mb-[9px]">Photoshop</div>
+                <div class="progress block h-[3px] relative w-full bg-[#ddd]">
+                  <div class="percentage left-0 top-0 absolute h-[3px] w-[0%] bg-amber-500" style="width:75%;">
+                  <span class="percent absolute top-[-27px] right-0 text-[#363636] font-normal">75%</span>
+                  </div>
+                </div>
+              </li>
+              <li class="px-0 pt-0">
+                <div class="name text-[#363636] font-normal relative mx-0 mt-0 mb-[9px]">Graphic Design</div>
+                <div class="progress block h-[3px] relative w-full bg-[#ddd]">
+                  <div class="percentage left-0 top-0 absolute h-[3px] w-[0%] bg-amber-500" style="width:80%;">
+                  <span class="percent absolute top-[-27px] right-0 text-[#363636] font-normal">80%</span>
+                  </div>
+                </div>
+              </li>
+              </ul>
+            </div><!-- /.skills -->
+          </div><!-- /.content -->
+        </div><!-- /.skills -->
+        <div class="section skills relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
+          <div class="content">
+            <div class="title relative mb-[40px]">
+              <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[#141414] uppercase tracking-[0.04em]">Language Skills                
+              </div>              
+            </div><!-- /.title -->
+            <div class="skills dotted">
+              <ul class="mx-[-30px] list-none text-[0] flex flex-wrap">
+                <li class="relative pb-[30px] px-[30px] w-1/2 md:block align-top">
+                  <div class="name text-[13px] text-[grey] font-normal relative mx-0 mt-0 mb-[9px]">
+                    English
+                  </div><!-- /.name -->
+                  <div class="progress h-[14px] !bg-transparent block relative w-full">
+                    <div class="percentage relative overflow-hidden top-0 h-[14px] !bg-transparent z-[2] left-0" style="width: 90%;">
+                      <span class="percent">90%</span>
+                      <span class="da"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+                    </div>
+                    <span class="dg"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+                  </div>
+                </li><!-- /.relative -->
+                <li class="relative pb-[30px] px-[30px] w-1/2 md:block align-top">
+                  <div class="name text-[13px] text-[grey] font-normal relative mx-0 mt-0 mb-[9px]">German</div><!-- /.name -->
+                  <div class="progress h-[14px] !bg-transparent block relative w-full">
+                    <div class="percentage relative overflow-hidden top-0 h-[14px] !bg-transparent z-[2] left-0" style="width: 70%;">
+                    <span class="percent">70%</span>
+                    <span class="da" ><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></div>
+                    <span class="dg"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></div>
+                </li><!-- /.relative -->
+                <li class="relative pb-[30px] px-[30px] w-1/2 md:block align-top">
+                  <div class="name text-[13px] text-[grey] font-normal relative mx-0 mt-0 mb-[9px]">Italian</div><!-- /.name -->
+                  <div class="progress h-[14px] !bg-transparent block relative w-full">
+                    <div class="percentage relative overflow-hidden top-0 h-[14px] !bg-transparent z-[2] left-0" style="width: 55%;">
+                    <span class="percent">55%</span>
+                    <span class="da"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></div>
+                    <span class="dg"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></div>
+                </li><!-- /.relative -->
+                <li class="relative pb-[30px] px-[30px] w-1/2 md:block align-top">
+                  <div class="name text-[13px] text-[grey] font-normal relative mx-0 mt-0 mb-[9px]">French</div><!-- /.name -->
+                  <div class="progress h-[14px] !bg-transparent block relative w-full">
+                    <div class="percentage relative overflow-hidden top-0 h-[14px] !bg-transparent z-[2] left-0" style="width: 85%;">
+                    <span class="percent">85%</span>
+                    <span class="da"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></div>
+                    <span class="dg"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></div>
+                </li><!-- /.relative -->
+              </ul><!-- /.mx- -->
+            </div><!-- /.skills -->
+          </div><!-- /.content -->
+        </div><!-- /.section -->
+        <div class="section slills relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
+          <div class="content relative">
+            <div class="title relative mb-[40px]">
+              <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Coding Skills
+              </div><!-- /.title_inner -->
+            </div><!-- /.title -->
+            <div class="skills circles">
+              <ul class="list-none p-0 mx-0 mb-0 mt-[-30px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-[30px] sm:gap-x-[60px] gap-y-[40px]">
+                <li class="mt-[30px] pb-[40px] align-top relative">
+                  <div class="name absolute top-[115px] left-0 w-full text-center font-normal mb-[9px] text-[grey]">WordPress</div>
+                  <div class="pie">90%</div><!-- /.pie -->
+                  <div class="percentage" style="width: 90%;">
+                  <span class="percent"></span>
+                  </div>
+                  <span class="absolute left-0 top-0 w-full h-full leading-[90px] text-[17px] text-center whitespace-nowrap z-[2]"></span>
+                  <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                </li>
+                <li class="mt-[30px] pb-[40px] align-top relative">
+                  <div class="name absolute top-[115px] left-0 w-full text-center font-normal mb-[9px] text-[grey]">PHP / MYSQL</div>
+                  <div class="pie">75%</div><!-- /.pie -->
+                  <div class="percentage" style="width: 75%;">
+                  <span class="percent"></span>
+                  </div>
+                  <span class="absolute left-0 top-0 w-full h-full leading-[90px] text-[17px] text-center whitespace-nowrap z-[2]"></span>
+                  <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                </li>
+                <li class="mt-[30px] pb-[40px] align-top relative">
+                  <div class="name absolute top-[115px] left-0 w-full text-center font-normal mb-[9px] text-[grey]">JavaScript</div>
+                  <div class="pie">85%</div><!-- /.pie -->
+                  <div class="percentage" style="width: 85%;">
+                  <span class="percent"></span>
+                  </div>
+                  <span class="absolute left-0 top-0 w-full h-full leading-[90px] text-[17px] text-center whitespace-nowrap z-[2]"></span>
+                  <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                </li>
+                <li class="mt-[30px] pb-[40px] align-top relative">
+                  <div class="name absolute top-[115px] left-0 w-full text-center font-normal mb-[9px] text-[grey]">HTML / CSS</div>
+                  <div class="pie">95%</div><!-- /.pie -->
+                  <div class="percentage" style="width: 95%;">
+                  <span class="percent"></span>
+                  </div>
+                  <span class="absolute left-0 top-0 w-full h-full leading-[90px] text-[17px] text-center whitespace-nowrap z-[2]"></span>
+                  <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                </li>
+              </ul><!-- /.list-none -->
+            </div><!-- /.skills -->
+          </div><!-- /.content -->
+        </div><!-- /.section -->
+        <div class="section skills relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
+          <div class="content">
+            <div class="title relative mb-[40px]">
+              <div class="title_inner inline-block align-middle relative leading-[18px] text-[#141414] uppercase traking-[0.04em]">
+                knowledge</div><!-- /.title_inner -->
+            </div><!-- /.title -->
+            <div class="skills list">
+              <ul class="p-0 pl-[10px] list-none text-[0] my-0 mx-[-30px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px]">
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+                <li class="check relative text-[13px] mt-0 ml-[20px] text-[#363636] relative pt-0 pb-[-10px] px-[30px] inline-block align-top">
+                  Website  hosting
+                </li>
+              </ul>
+            </div><!-- /.slills -->
+          </div><!-- /.content -->
+        </div><!-- /.section -->
+        <div class="section service relative z-[97] px-[87px] pt-0 pb-[150px] opacity-100 visible">
+          <div class="content relative">
+            <div class="title relative">
+              <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[#141414] uppercase tracking-[0.04em] mb-[42px]">
+                knowledge                
+              </div><!-- /.title-inner -->
+            </div><!-- /.service-items -->
+            <div class="service-items grid sm:grid-cols-2 md:grid-cols-3 gap-x-[24px] gap-y-[36px]">
+              <div class="service-item">
+                <div class="flex justify-start">
+                  <div class="icon w-[36px] text-center text-[30px] text-amber-600">
+                    <!-- <span class="ion ion-social-html5 block"></span> -->
+                    <span class="fa-brands fa-html5"></span>
+                  </div><!-- /.icon -->
+                  <div class="name font-medium pt-[12px] mr-0 mb-0 ml-[12px]">Front-end
+                  </div><!-- /.name -->
+                </div>
+                <p class="!mb-0 mt-[20px]">Morbi nulla arcu, pellentesque sed egestas in.</p><!-- /.!mb-0 -->
+              </div><!-- /.service-item -->
+              <div class="service-item">
+                <div class="icon float-left w-[36px] text-center text-[30px] text-amber-600">
+                  <!-- <span class="ion ion-social-html5 block"></span> -->
+                  <span class="fa-brands fa-html5"></span>
+                </div><!-- /.icon -->
+                <div class="name font-medium pt-[12px] mr-0 mb-0 ml-[46px]">Front-end
+                </div><!-- /.name -->
+                <p class="!mb-0 mt-[30px]">Morbi nulla arcu, pellentesque sed egestas in.</p><!-- /.!mb-0 -->
+              </div><!-- /.service-item -->
+              <div class="service-item">
+                <div class="icon float-left w-[36px] text-center text-[30px] text-amber-600">
+                  <!-- <span class="ion ion-social-html5 block"></span> -->
+                  <span class="fa-brands fa-html5"></span>
+                </div><!-- /.icon -->
+                <div class="name font-medium pt-[12px] mr-0 mb-0 ml-[46px]">Front-end
+                </div><!-- /.name -->
+                <p class="!mb-0 mt-[30px]">Morbi nulla arcu, pellentesque sed egestas in.</p><!-- /.!mb-0 -->
+              </div><!-- /.service-item -->
+              <div class="service-item">
+                <div class="icon float-left w-[36px] text-center text-[30px] text-amber-600">
+                  <!-- <span class="ion ion-social-html5 block"></span> -->
+                  <span class="fa-brands fa-html5"></span>
+                </div><!-- /.icon -->
+                <div class="name font-medium pt-[12px] mr-0 mb-0 ml-[46px]">Front-end
+                </div><!-- /.name -->
+                <p class="!mb-0 mt-[30px]">Morbi nulla arcu, pellentesque sed egestas in.</p><!-- /.!mb-0 -->
+              </div><!-- /.service-item -->
+              <div class="service-item">
+                <div class="icon float-left w-[36px] text-center text-[30px] text-amber-600">
+                  <!-- <span class="ion ion-social-html5 block"></span> -->
+                  <span class="fa-brands fa-html5"></span>
+                </div><!-- /.icon -->
+                <div class="name font-medium pt-[12px] mr-0 mb-0 ml-[46px]">Front-end
+                </div><!-- /.name -->
+                <p class="!mb-0 mt-[30px]">Morbi nulla arcu, pellentesque sed egestas in.</p><!-- /.!mb-0 -->
+              </div><!-- /.service-item -->
+              <div class="service-item">
+                <div class="icon float-left w-[36px] text-center text-[30px] text-amber-600">
+                  <!-- <span class="ion ion-social-html5 block"></span> -->
+                  <span class="fa-brands fa-html5"></span>
+                </div><!-- /.icon -->
+                <div class="name font-medium pt-[12px] mr-0 mb-0 ml-[46px]">Front-end
+                </div><!-- /.name -->
+                <p class="!mb-0 mt-[30px]">Morbi nulla arcu, pellentesque sed egestas in.</p><!-- /.!mb-0 -->
+              </div><!-- /.service-item -->
+            </div><!-- /.title -->
+          </div><!-- /.content -->
+        </div><!-- /.section -->
+        <div class="section clients relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
+          <div class="content relative">
+            <div class="title relative mb-[40px]">
+              <div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">
+                Clients
               </div>
-              <div class="clear"></div>
             </div>
+            <div div class="box-items grid sm:grid-cols-2 md:grid-cols-3 gap-[16px] overflow-hidden">
+              <div class="box-item mt-0 mr-0 mb-[3%] overflow-hidden text-center">
+                <a class="block text-[0]" target="_blank" href="https://www.google.com">
+                  <img class="w-full h-auto relative top-0" src=".//assets/images/client_1.png" alt="">
+                </a>
+              </div>
+              <div class="box-item mt-0 mr-0 mb-[3%] overflow-hidden text-center">
+                <a class="block text-[0]" target="_blank" href="https://www.google.com">
+                  <img class="w-full h-auto relative top-0" src=".//assets/images/client_2.png" alt="">
+                </a>
+              </div>
+              <div class="box-item mt-0 mr-0 mb-[3%] overflow-hidden text-center">
+                <a class="block text-[0]" target="_blank" href="https://www.google.com">
+                  <img class="w-full h-auto relative top-0" src=".//assets/images/client_3.png" alt="">
+                </a>
+              </div>
+              <div class="box-item mt-0 mr-0 mb-[3%] overflow-hidden text-center">
+                <a class="block text-[0]" target="_blank" href="https://www.google.com">
+                  <img class="w-full h-auto relative top-0" src=".//assets/images/client_1.png" alt="">
+                </a>
+              </div>
+              <div class="box-item mt-0 mr-0 mb-[3%] overflow-hidden text-center">
+                <a class="block text-[0]" target="_blank" href="https://www.google.com">
+                  <img class="w-full h-auto relative top-0" src=".//assets/images/client_2.png" alt="">
+                </a>
+              </div>
+              <div class="box-item mt-0 mr-0 mb-[3%] overflow-hidden text-center">
+                <a class="block text-[0]" target="_blank" href="https://www.google.com">
+                  <img class="w-full h-auto relative top-0" src=".//assets/images/client_3.png" alt="">
+                </a>
+              </div>
+
           </div>
-        
+          </div>
+        </div>
       </main>
       <!-- フッター -->
       <footer class="order-last left-0 px-8 pt-[15px] pb-[30px]
@@ -169,6 +564,8 @@
               showCursor: false
             });
             </script>
+
+            <script src="./assets/js/dot-graph.js"></script>
   
 </body>
 </html>

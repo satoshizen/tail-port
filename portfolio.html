@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
   
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="/assets/css/glitch-basic.css">
   <link rel="stylesheet" href="/assets/css/main.css">
-  
+
   <meta name="description" content="ページの説明が入ります">
 
   <!-- FontAwesome -->
@@ -24,7 +24,7 @@
 
 </head>
 <body class="font-roboto text-[13px]">
-  <div class="border-[15px] md:border-[30px] border-amber-500 w-screen h-screen ">
+  <div class="border-[15px] md:border-[30px] border-amber-500 w-screen h-screen">
     <div class="body-inner grid grid-rows-[auto_1fr_auto] gap-10 w-full h-full">
 
       <!-- ヘッダー -->
@@ -46,8 +46,8 @@
               id="menu"
               class="absolute top-20 left-0 flex gap-6 w-full -translate-y-[150%] flex-col bg-white/80 text-center font-bold text-gray-400 transition-all ease-linear lg:static lg:w-full lg:translate-y-0 lg:flex-row lg:place-items-center lg:bg-transparent lg:text-black lg:mt-26 lg:mt-auto z-20"
             >
-              <li class="p-3 text-amber-600 md:hover:text-amber-600  font-normal"><a href="index.html">Home</a></li>
-              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="resume.html">Resume</a></li>
+              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="index.html">Home</a></li>
+              <li class="p-3 text-amber-600 md:hover:text-amber-600 font-normal"><a href="resume.html">Resume</a></li>
               <li class="p-3 md:hover:text-amber-600 font-normal"><a href="portfolio.html">Portfolio</a></li>
               <li class="p-3 md:hover:text-amber-600 font-normal"><a href="blog.html">Blog</a></li>
               <li class="p-3 font-normal"><a href="contact.html" class="p-3 border border-amber-500 md:hover:bg-amber-600 md:hover:text-white">Contacts</a></li>
@@ -91,15 +91,48 @@
       <!-- メイン -->
       <main class="order-2 gap-y-10 w-full max-w-[1060px] m-x-auto justify-self-center overflow-y-scroll">
         <div class="wrapper grid min-h-full content-center">
-          <h1 class="text-[42px] md:text-[48px] lg:text-[68px] font-roboto
-          font-bold text-black transition-all text-center glitch relative uppercase inline-block mx-auto" data-text="I'm John Doe">I'm <span class="block md:inline">John Doe</span></h1><!-- / -->
-
-          <div class="text-center">
-            <!-- Element to contain animated typing -->
-            <span id="element" aria-label="UX/UI Designer and Front-end Director.Based in kiev" class="font-roboto text-[13px] font-roboto"></span>
-
-          </div><!-- /.text-center -->
+          <h1 class="text-[42px] md:text-[48px] lg:text-[68px] font-bold text-black transition-all text-center glitch relative uppercase inline-block mx-auto" data-text="Portfolio"><span class="block md:inline">Portfolio</span></h1><!-- /.text-[42px] -->
+          <div class="h-subtitle typing-bread text-[13px] text-center" style="display: none;">
+            <p><a href="index.html">Home</a> / 
+              <span class="text-amber-600">Portfolio</span></p>
+          </div>
+          <span class="typed-bread text-center"><a href="index.html">Home</a> / 
+            <span class="text-amber-600">Portfolio</span>
+          </span>
         </div><!-- /.wrapper -->
+        <div class="button">
+          <a href="#" class="mouse_btn text-[24px] text-amber-500 text-center absolute w-[20px] h-[40px] left-1/2 bottom-[80px] ml-[-10px] animate-bounce" style="display: block;">
+            <i class="fa-solid fa-computer-mouse"></i>
+          </a>
+        </div>
+        <div class="section works">
+          <div class="content">
+            <div class="filter-menu">
+              <div class="filters">
+                <div class="btn-group inline-block align-top mr-[8px]">
+                  <a href="">All</a>
+                </div><!-- /.btn -->
+                <div class="btn-group inline-block">
+                  <a href="">Video</a>
+                </div><!-- /.btn -->
+                <div class="btn-group inline-block">
+                  <a href="">Music</a>
+                </div><!-- /.btn -->
+                <div class="btn-group inline-block">
+                  <a href="">Links</a>
+                </div><!-- /.btn -->
+              </div><!-- /.filters -->
+            </div><!-- /.filter-menu -->
+            <div class="box-items">
+              <div class="box-item">
+                <div class="image"></div><!-- /.image -->
+                <div class="desc"></div><!-- /.desc -->
+              </div><!-- /.box-item -->
+
+            </div><!-- /.box-items -->
+          </div><!-- /.content -->
+
+        </div><!-- /.works -->
       </main>
       <!-- フッター -->
       <footer class="order-last left-0 px-8 pt-[15px] pb-[30px]
@@ -122,22 +155,31 @@
 
       </footer>
 
-
     </div><!-- /.body-inner -->
 
-  </div>
+  </div><!-- /.border-[15px] md:border-[30px] border-amber-500 w-screen h-screen -->
   <div class="md:hidden bg-amber-500 w-screen h-[15px] absolute top-0 left-0 z-30">
   </div>
-            <!-- Setup and start animation! -->
             <script>
-              var typed = new Typed('#element', {
-                strings: ['UX/UI Designer and Front-end Director.', 'Based in kiev'],
-                typeSpeed: 50,
-                startDelay: 100,
-                backSpeed: 10,
-                loop: true,
-              });
+            // window.addEventListener('load',function(){
+            //   /* Typed breadcrumbs */
+            //   const typedBread = document.getElementsByClassName('typed-bread');
+            //   const typingBread = document.getElementsByClassName('typing-bread');
+            //   // $('.typed-bread').typed({
+            //   typedBread.typed({
+            //     stringsElement: typingBread,
+            //     // stringsElement: $('.typing-bread'),
+            //     showCursor: false
+            //   });
+            // })
+
+            var typed = new Typed('.typed-bread', {
+              stringsElement: document.getElementsByClassName('typing-bread'),
+              showCursor: false
+            });
             </script>
+
+            <script src="./assets/js/dot-graph.js"></script>
   
 </body>
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid-Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/glitch-basic.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/gridgrid.css">
+
+  <meta name="description" content="ページの説明が入ります">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/33d01a83f0.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+<body>
+  <main class="gridgrid bg-stone-800">
+      <div class="container grid gap-[6px] p-[10px]">
+        <div class="wrapper group1 grid-rows-[3fr_2fr_1fr]">
+          <div class="item bg-lime-300">D</div>
+          <div class="item bg-white">E</div>
+          <div class="item bg-fuchsia-600">F</div>
+        </div>
+          <div class="wrapper group2 grid-cols-[2.5fr_2.5fr_0.5fr_2.5fr] grid-rows-[3fr_2fr_2fr_1fr_2fr_auto]">
+          <div class="item col-span-3 bg-green-600">G</div>
+          <div class="item bg-lime-300">H</div>
+          <div class="item bg-sky-600">I</div>
+          <div class="item col-span-3 row-span-2 bg-lime-300">J</div>
+          <div class="item row-span-2 bg-orange-300">K</div>  
+          <div class="item row-span-2 col-span-2 bg-white">L</div>
+          <div class="item row-span-2 bg-fuchsia-400">M</div>
+          <div class="item bg-stone-900">N</div>
+        </div>
+        <div class="wrapper group3 grid-cols-[2fr_4fr] grid-rows-[3fr_3fr_4fr]">
+          <div class="item box11 col-span-full bg-stone-900">O</div>
+          <div class="item bg-red-600">P</div>
+          <div class="item bg-sky-600">Q</div>
+          <div class="item col-span-full bg-lime-300">R</div>
+        </div>
+      </div>
+  </main>
+
+</body>
+</html>
