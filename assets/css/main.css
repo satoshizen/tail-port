@@ -139,54 +139,24 @@ a.btn.fill {
   line-height: 1;
 }
 
-/* .service-items {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  column-gap: 24px;
-  row-gap: 36px;
-}
+/* Portfolioページの切り替え */
 
-@media screen and (min-width: 580px){
-  .service-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    column-gap: 24px;
-    row-gap: 36px;
+.section.works {
+  .content {
+    .filters {
+      input[type=radio] {
+        display: none;
+      }
 
+      label {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content:has(.filters #video:checked) {
+    .box-items .box-item:not(.video) {
+      display: none;
+    }
   }
 }
-@media screen and (min-width: 840px){
-  .service-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 24px;
-    row-gap: 36px;
-  }
-} */
-
-/* .box-items {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  gap: 5px;
-}
-
-@media screen and (min-width: 580px){
-  .box-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 5px;
-  }
-}
-@media screen and (min-width: 840px){
-  .box-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
-  }
-} */
