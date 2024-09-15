@@ -1,0 +1,76 @@
+********************** Player 6 Started **********************
+[19:59:08.846] : [Process] KernelVersion :  "10.0.19042"
+[19:59:08.846] : [Process] ProductName :  "Windows 10"
+[19:59:08.846] : [Process] Local Language :  "Japanese"
+[19:59:08.846] : [Process] Country :  "Japan"
+[19:59:08.846] : [Process] Resolution :  3840  *  2160
+[19:59:08.846] : [Process] DPI :  1
+[19:59:08.846] : [Process] Player Version :  "6110"
+[19:59:08.846] : [Process] app args:  ("C:\\Program Files (x86)\\DVDFab\\Player 6\\DVDFab Player 6.exe", "background")
+[19:59:08.846] : [Reg check] Parse string: ( 200:0 )( 201:0 )( VP:-1 )( OV:6116 )( BV: )( TI:1631258533 )
+[19:59:08.846] : [Reg check] Option check status-Reduce one time.
+[19:59:08.846] : [Reg check] Option check status-Local
+[19:59:08.846] : [Reg check]  (201: e=1, r=0, tl=-1, et=1970-01-01 00:00:00, ne=false, orb=false) - (200: e=1, r=0, tl=-1, et=1970-01-01 00:00:00, ne=false, orb=false) -
+[19:59:08.861] : [Auto Register]: read player6 account
+[19:59:08.861] : [Auto Register]: read DVDFab account
+[19:59:08.861] : [Auto Register]: userName :  ""
+[19:59:08.861] : [Process] Player Mode is PC Mode 
+[19:59:08.861] : [Reg check] Start get sys number.
+[19:59:08.861] : [Reg check] Serial number is: a8-a1-59-22-22-d1
+[19:59:08.861] : [Reg check] Connect type is: 1
+[19:59:10.179] : [TJ] StatisticsPLaySource (true)
+[19:59:10.197] : ********************** Player6 Init Completed **********************
+[19:59:10.218] : [TJ] StatisticsPLaySource (true)
+[19:59:10.221] : [TJ] HistoryStatistics (true)
+[19:59:10.221] : [TJ] HistoryFeedback (true)
+[19:59:10.234] : [Web service] update flag: Auto
+[19:59:10.268] : [Web service] start update: Success
+[19:59:10.662] : [TJ] ALLStatistics (true)
+[19:59:10.726] : "[Disc Notify] Letter : E ---- Type : 1"
+[19:59:10.728] : "[Disc Notify] Letter : \u0000 ---- Type : 5"
+[19:59:10.806] : [PC] Disc Scan Thread, ignore FileSystem Type :  "NTFS"
+[19:59:10.813] : [PC] Get Poster [START] :  ""
+[19:59:11.592] : [Reg check] Post Return Value: 1
+[19:59:11.592] : [Reg check] Times of connecting error is: 0
+[19:59:11.592] : [Reg check] Get GetConnectStutas Value: 1
+[19:59:11.593] : [Reg check] Parse string: ( 200:0 )( 201:0 )( VP:-1 )( OV:6116 )( BV: )( TI:1631444352 )
+[19:59:11.593] : [Reg check] Get Reg info finish
+[19:59:11.594] : [Reg check] Option check status-NewWork
+[19:59:11.594] : [Reg check]  (201: e=0, r=0, tl=0, et=1970-01-01 00:00:00, ne=false, orb=true) - (200: e=0, r=0, tl=0, et=1970-01-01 00:00:00, ne=false, orb=true) -
+[19:59:12.640] : [AD] : ADID  2000
+[19:59:12.640] : [AD] : SeniorMember  false
+[19:59:21.127] : [MS Path] use normal path:  true
+[19:59:22.139] : [TJ] StatisticsPLaySource (true)
+[19:59:41.033] : [PC] Get Poster [END] :  ""
+[15:44:16.481] : [PC] Get Poster [START] :  ""
+[15:44:34.089] : [PC] Get Poster [END] :  ""
+[19:19:20.827] : [PC] Get Poster [START] :  ""
+[19:19:36.248] : [PC] Get Poster [END] :  ""
+[00:36:52.238] : [PC] Get Poster [START] :  ""
+[00:37:21.825] : [PC] Get Poster [END] :  ""
+[03:17:14.806] : [PC Video Setup] HardWare Decode:  true
+[03:17:14.806] : [PC Video Setup] HDR Enable:  true
+[03:17:14.806] : [PC Video Setup] HDR Mode:  1
+[03:17:14.806] : [PC Video Setup] SDR Mode:  4
+[03:17:14.806] : [PC Video Setup] SDR Value:  50
+[03:17:14.806] : [PC Video Setup] Color Mode:  1
+[03:17:14.889] : [PC Audio Setup] isPassThroughEnable:  false
+[03:17:14.889] : [PC Audio Setup] OutputMode:  1
+[03:17:14.889] : [PC Audio Setup] CodecMask:  0
+[03:17:14.889] : [PC Audio Setup] SpeakerIndex:  1
+[03:17:14.889] : [PC Audio Setup] VolumeAmplification:  0
+[03:17:14.889] : [PC Audio Setup] AudioOffsize:  0
+[03:17:15.182] : [TJ] StatisticsPLaySource (true)
+[03:17:15.182] : [TJ] StatisticsPLaySource (true)
+[03:17:15.182] : [PlaySource]:  "F:\\Ç‹Ç¢Ç«Ç´Ç„ÇﬂÇÒÇ∆\\Mobail Date\\P703i\\20070711_ÇrÇÅÇîÇèÇìÇàÇâ.dat"
+[03:17:15.308] : [Open File] QPlayer open file result :  false
+[03:17:15.308] : [PlaySource]: Play operate completed
+[03:17:15.308] : [TJ] StatisticsPLaySource (true)
+[03:17:15.309] : [Player fail]: UHD Disc unknown : F
+[03:17:15.309] : [TJ] StatisticsPLaySource (true)
+[03:17:15.309] : [Error code]:  10005
+[03:17:15.309] : [Disc Last Error code]:  0
+[03:17:15.309] : [PlayMode]:  false
+[03:17:15.309] : [Error of modules]: PC
+[03:17:15.309] : [TJ] Feedback (true)
+[03:17:15.544] : [TJ] StatisticsPLaySource (true)

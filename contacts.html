@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Contacts</title>
   
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -26,7 +26,6 @@
 <body class="font-roboto text-[13px]">
   <div class="border-[15px] md:border-[30px] border-amber-500 w-screen h-screen">
     <div class="body-inner grid grid-rows-[auto_1fr_auto] gap-10 w-full h-full">
-
       <!-- ヘッダー -->
       <header class="w-full order-1">
         <div class="flex h-20 sm:h-auto items-center justify-center lg:justify-end px-8 my-8 relative z-20">
@@ -48,8 +47,8 @@
             >
               <li class="p-3 md:hover:text-amber-600 font-normal"><a href="index.html">Home</a></li>
               <li class="p-3 md:hover:text-amber-600 font-normal"><a href="resume.html">Resume</a></li>
-              <li class="p-3 text-amber-600 md:hover:text-amber-600 font-normal"><a href="portfolio.html">Portfolio</a></li>
-              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="blog.html">Blog</a></li>
+              <li class="p-3 md:hover:text-amber-600 font-normal"><a href="portfolio.html">Portfolio</a></li>
+              <li class="p-3 text-amber-600 md:hover:text-amber-600 font-normal"><a href="blog.html">Blog</a></li>
               <li class="p-3 font-normal"><a href="contacts.html" class="p-3 border border-amber-500 transition-all duration-300 ease-in md:hover:bg-amber-600 md:hover:text-white">Contacts</a></li>
             </ul>
           </nav>
@@ -85,145 +84,56 @@
             // menuBg.classCheck.toggle('hidden');
           });
         </script>
-
       </header>
 
       <!-- メイン -->
       <main class="order-2 gap-y-10 w-full max-w-[1060px] m-x-auto justify-self-center overflow-y-scroll">
         <div class="wrapper grid min-h-full content-center">
-          <h1 class="text-[42px] md:text-[48px] lg:text-[68px] font-bold text-black transition-all text-center glitch relative uppercase inline-block mx-auto" data-text="Portfolio"><span class="block md:inline">Portfolio</span></h1><!-- /.text-[42px] -->
+          <h1 class="text-[42px] md:text-[48px] lg:text-[68px] font-bold text-black transition-all text-center glitch relative uppercase inline-block mx-auto" data-text="Contacts"><span class="block md:inline">Contacts</span></h1><!-- /.text-[42px] -->
           <div class="h-subtitle typing-bread text-[13px] text-center" style="display: none;">
             <p><a href="index.html">Home</a> / 
-              <span class="text-amber-600">Portfolio</span></p>
+              <span class="text-amber-600">Contact</span></p>
           </div>
           <span class="typed-bread text-center"><a href="index.html">Home</a> / 
-            <span class="text-amber-600">Portfolio</span>
+            <span class="text-amber-600">Contacts</span>
           </span>
         </div><!-- /.wrapper -->
+
+        <div class="section contacts">
+          <div class="conten">
+            <div class="title">
+              <div class="title_inner btn-group inline-block mr-[24px] under-yellow uppercase">Contacts
+            </div><!-- / .title -->
+            <div class="contact_form-comment">
+              <form id="comment_form">
+                <div class="group-val">
+                  <input type="text" name="name" placeholder="Name" class="outline-none w-full h-[60px] block border-b border-solid border-b-gray-500 focus:border-b-amber-500 focus:placeholder:text-black transition-all duration-300">
+                </div><!-- /.group-val -->
+                <div class="group-val">
+                  <input type="text" name="email" placeholder="Email" class="outline-none w-full h-[60px] block border-b border-solid border-b-gray-500 focus:border-b-amber-500 focus:placeholder:text-black transition-all duration-300">
+                </div><!-- /.group-val -->
+                <div class="group-val">
+                  <textarea placeholder="Message" name="message" class="mt-[55px] mb-[30px] outline-none w-full h-[120px] block border-b border-solid border-b-gray-500 focus:border-b-amber-500 focus:placeholder:text-black transition-all duration-300"></textarea>
+
+                </div><!-- /.group-val -->
+                <div class="bts  pb-[100px] text-center">
+                  <a href="" class="btn inline-block fill px-6 py-3 hover:scale-110 transition-all duration-100 ease-in" data-text="Send Message">
+                    Send Message
+                  </a><!-- /.btn -->
+                </div><!-- /.bts -->
+
+              </form><!-- /.comment -->
+
+            </div><!-- /.contact_form-comment -->
+    
+          </div><!-- /.content -->
+
+        </div><!-- /.section blog inner-->
         <div class="button">
           <a href="#" class="mouse_btn text-[24px] text-amber-500 text-center absolute w-[20px] h-[40px] left-1/2 bottom-[80px] ml-[-10px] animate-bounce" style="display: block;">
             <i class="fa-solid fa-computer-mouse"></i>
           </a>
         </div>
-        <div class="section works max-w-[900px] mx-auto mb-[150px]">
-          <div class="content">
-            <div class="filters mb-[24px]">
-              <div class="btn-group inline-block mr-[24px]">
-                <input type="radio" name="filter" id="all" checked><label for="all">All</label>
-              </div><!-- /.btn-group -->
-              <div class="btn-group inline-block mr-[24px]">
-                <input type="radio" name="filter" id="video"><label for="video">Video</label>
-              </div><!-- /.btn -->
-              <div class="btn-group inline-block mr-[24px]">
-                <input type="radio" name="filter" id="music"><label for="music">Music</label>
-              </div><!-- /.btn -->
-              <div class="btn-group inline-block mr-[24px]">
-                <input type="radio" name="filter" id="links"><label for="links">Links</label>
-              </div><!-- /.btn -->
-              <div class="btn-group inline-block mr-[24px]">
-                <input type="radio" name="filter" id="image"><label for="image">Image</label>
-              </div><!-- /.btn -->
-              <div class="btn-group inline-block mr-[24px]">
-                <input type="radio" name="filter" id="gallery"><label for="gallery">Gallery</label>
-              </div><!-- /.btn -->
-            </div><!-- /.filters -->
-            <div class="box-items grid md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
-              <a href="" class="box-item block">
-                <div class="image">
-                  <span>
-                    <img class="w-full h-auto relative top-0" src="assets/images/works/work1.jpg" alt="">
-                  </span>
-                </div><!-- /.image -->
-                <div class="desc pt-[15px] pb-[5px] px-[15px] text-center">
-                  <div class="mt-0 mx-0 mb-[10px]">
-                    <span class="category text-[11px] under-yellow uppercase">Gallery</span><!-- /.category -->
-                  </div>
-                  <div>
-                    <span class="name font-bold uppercase">Canvas Tote Bag</span><!-- /.name -->
-                  </div>
-                </div><!-- /.desc -->
-              </a><!-- /.box-item -->
-              <a href="" class="box-item block">
-                <div class="image">
-                  <span>
-                    <img class="w-full h-auto relative top-0" src="assets/images/works/work2.jpg" alt="">
-                  </span>
-                </div><!-- /.image -->
-                <div class="desc pt-[15px] pb-[5px] px-[15px] text-center">
-                  <div class="mt-0 mx-0 mb-[10px]">
-                    <span class="category text-[11px] under-yellow uppercase">Gallery</span><!-- /.category -->
-                  </div>
-                  <div>
-                    <span class="name font-bold uppercase">Canvas Tote Bag</span><!-- /.name -->
-                  </div>
-                </div><!-- /.desc -->
-              </a><!-- /.box-item -->
-              <a href="" class="box-item block">
-                <div class="image">
-                  <span>
-                    <img class="w-full h-auto relative top-0" src="assets/images/works/work8.jpg" alt="">
-                  </span>
-                </div><!-- /.image -->
-                <div class="desc pt-[15px] pb-[5px] px-[15px] text-center">
-                  <div class="mt-0 mx-0 mb-[10px]">
-                    <span class="category text-[11px] under-yellow uppercase">Gallery</span><!-- /.category -->
-                  </div>
-                  <div>
-                    <span class="name font-bold uppercase">Canvas Tote Bag</span><!-- /.name -->
-                  </div>
-                </div><!-- /.desc -->
-              </a><!-- /.box-item -->
-              <a href="" class="box-item block">
-                <div class="image">
-                  <span>
-                    <img class="w-full h-auto relative top-0" src="assets/images/works/work4.jpg" alt="">
-                  </span>
-                </div><!-- /.image -->
-                <div class="desc pt-[15px] pb-[5px] px-[15px] text-center">
-                  <div class="mt-0 mx-0 mb-[10px]">
-                    <span class="category text-[11px] under-yellow uppercase">Gallery</span><!-- /.category -->
-                  </div>
-                  <div>
-                    <span class="name font-bold uppercase">Canvas Tote Bag</span><!-- /.name -->
-                  </div>
-                </div><!-- /.desc -->
-              </a><!-- /.box-item -->
-              <a href="" class="box-item block">
-                <div class="image">
-                  <span>
-                    <img class="w-full h-auto relative top-0" src="assets/images/works/work6.jpg" alt="">
-                  </span>
-                </div><!-- /.image -->
-                <div class="desc pt-[15px] pb-[5px] px-[15px] text-center">
-                  <div class="mt-0 mx-0 mb-[10px]">
-                    <span class="category text-[11px] under-yellow uppercase">Gallery</span><!-- /.category -->
-                  </div>
-                  <div>
-                    <span class="name font-bold uppercase">Canvas Tote Bag</span><!-- /.name -->
-                  </div>
-                </div><!-- /.desc -->
-              </a><!-- /.box-item -->
-              <a href="" class="box-item block">
-                <div class="image">
-                  <span>
-                    <img class="w-full h-auto relative top-0" src="assets/images/works/work3.jpg" alt="">
-                  </span>
-                </div><!-- /.image -->
-                <div class="desc pt-[15px] pb-[5px] px-[15px] text-center">
-                  <div class="mt-0 mx-0 mb-[10px]">
-                    <span class="category text-[11px] under-yellow uppercase">Gallery</span><!-- /.category -->
-                  </div>
-                  <div>
-                    <span class="name font-bold uppercase">Canvas Tote Bag</span><!-- /.name -->
-                  </div>
-                </div><!-- /.desc -->
-              </a><!-- /.box-item -->
-
-
-            </div><!-- /.box-items -->
-          </div><!-- /.content -->
-
-        </div><!-- /.works -->
       </main>
 
       <!-- フッター -->

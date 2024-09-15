@@ -1,0 +1,67 @@
+Ôªø05:00:31 T:5932    info: ==========================================================================
+05:00:31 T:5932    info: ============== 2021-06-21, 05:00, log service starting ==============
+05:00:31 T:5932  notice: Log level changed to 0
+05:00:53 T:5932  notice: Image url http://image.tmdb.org/t/p/w1280/gdIwS42ATtPgisA3Ctj2modEtYz.jpg, local file C:/Users/s_shi/OneDrive/ÉhÉLÉÖÉÅÉìÉg/DVDFab/DVDFab Player 6/Temp/posterTemp/gdIwS42ATtPgisA3Ctj2modEtYz.jpg.
+12:18:05 T:12728    info: ==========================================================================
+12:18:05 T:12728    info: ============== 2021-06-22, 12:18, log service starting ==============
+12:18:05 T:12728  notice: Log level changed to 0
+12:18:35 T:12728  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+19:48:10 T:12676    info: ==========================================================================
+19:48:10 T:12676    info: ============== 2021-07-16, 19:48, log service starting ==============
+19:48:10 T:12676  notice: Log level changed to 0
+19:48:40 T:12676  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+00:16:30 T:10840    info: ==========================================================================
+00:16:30 T:10840    info: ============== 2021-07-17, 00:16, log service starting ==============
+00:16:30 T:10840  notice: Log level changed to 0
+00:17:00 T:10840  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+01:50:52 T:8664    info: ==========================================================================
+01:50:52 T:8664    info: ============== 2021-07-17, 01:50, log service starting ==============
+01:50:52 T:8664  notice: Log level changed to 0
+04:44:50 T:12152    info: ==========================================================================
+04:44:50 T:12152    info: ============== 2021-07-17, 04:44, log service starting ==============
+04:44:50 T:12152  notice: Log level changed to 0
+09:10:19 T:12152  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+01:12:46 T:7604    info: ==========================================================================
+01:12:46 T:7604    info: ============== 2021-07-24, 01:12, log service starting ==============
+01:12:46 T:7604  notice: Log level changed to 0
+17:36:02 T:7604  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+16:44:23 T:11436    info: ==========================================================================
+16:44:23 T:11436    info: ============== 2021-08-01, 16:44, log service starting ==============
+16:44:23 T:11436  notice: Log level changed to 0
+19:53:38 T:12944    info: ==========================================================================
+19:53:38 T:12944    info: ============== 2021-08-01, 19:53, log service starting ==============
+19:53:38 T:12944  notice: Log level changed to 0
+00:37:34 T:12044    info: ==========================================================================
+00:37:34 T:12044    info: ============== 2021-08-02, 00:37, log service starting ==============
+00:37:34 T:12044  notice: Log level changed to 0
+01:09:30 T:10188    info: ==========================================================================
+01:09:30 T:10188    info: ============== 2021-08-04, 01:09, log service starting ==============
+01:09:30 T:10188  notice: Log level changed to 0
+00:46:32 T:7416    info: ==========================================================================
+00:46:32 T:7416    info: ============== 2021-08-10, 00:46, log service starting ==============
+00:46:32 T:7416  notice: Log level changed to 0
+00:47:02 T:7416  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+00:30:54 T:9828    info: ==========================================================================
+00:30:54 T:9828    info: ============== 2021-08-14, 00:30, log service starting ==============
+00:30:54 T:9828  notice: Log level changed to 0
+00:31:24 T:9828  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+18:13:34 T:11640    info: ==========================================================================
+18:13:34 T:11640    info: ============== 2021-08-27, 18:13, log service starting ==============
+18:13:34 T:11640  notice: Log level changed to 0
+18:14:04 T:11640  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+19:58:04 T:12988    info: ==========================================================================
+19:58:04 T:12988    info: ============== 2021-09-09, 19:58, log service starting ==============
+19:58:04 T:12988  notice: Log level changed to 0
+19:58:34 T:12988  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+16:18:12 T:11492    info: ==========================================================================
+16:18:12 T:11492    info: ============== 2021-09-10, 16:18, log service starting ==============
+16:18:12 T:11492  notice: Log level changed to 0
+16:18:42 T:11492  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+16:22:12 T:9332    info: ==========================================================================
+16:22:12 T:9332    info: ============== 2021-09-10, 16:22, log service starting ==============
+16:22:12 T:9332  notice: Log level changed to 0
+20:22:36 T:9332  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
+19:59:10 T:12764    info: ==========================================================================
+19:59:10 T:12764    info: ============== 2021-09-12, 19:59, log service starting ==============
+19:59:10 T:12764  notice: Log level changed to 0
+19:59:40 T:12764  notice: post failed, url http://api.vidonme.cn/2.0/movie/lucky?name=.
